@@ -1,6 +1,6 @@
-baseURL = "https://example.com"
+baseURL = "https://gongzhem.github.io"
 languageCode = "en" # <html lang> ==> data/l10n.toml
-title = "Example Site" # Website Title
+title = "JHEM's Home" # Website Title
 copyright = "Copy from Vortisil" # Footer copyright.
 theme = "vortisil"
 pagination.pagerSize = 9
