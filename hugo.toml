@@ -1,3 +1,4 @@
 baseURL = 'https://gongzhem.github.io'
 languageCode = 'en-us'
 title = "JHEM's Website"
+theme = 'lightbi-hugo'
