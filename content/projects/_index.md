@@ -1,13 +1,6 @@
 ---
 title: "科研项目"
 description: "上海交通大学博士期间参与的科研项目展示"
-type: "projects"
-layout: "projects-list"
-menu:
-  main:
-    name: "项目"
-    identifier: "projects"
-    weight: 3
 ---
 
 # 🚀 科研项目合集
