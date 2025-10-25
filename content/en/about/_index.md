@@ -1,8 +1,70 @@
 ---
 layout : "about"
 title: "About me"
-subtitle: "Let's talk more about me, maybe you find the magic."
 ---
+
+I an Zhen Gong, currently  a PhD student at Shanghai Jiao Tong Univerisity.
+
+{{< figure src="/images/img0.jpg" alt="profile photo" width="200" >}}
+
+<div style="text-align: center;">Zhen GONG (龚震)</div>
+
+
+
+### ℹ️Basic Information
+
+**Name**: Zhen GONG (龚震)  
+**Gender**: Male    
+**Date of Birth**: October, 1999  
+**Email**: [gongzhem@hotmail.com](mailto:gongzhem@hotmail.com) / [zhengong@sjtu.edu.cn](mailto:zhengong@sjtu.edu.cn)  
+**Phone**: +86-13359282607  
+**Nationality**: P.R. China
+
+### 🏫Education Background
+
+Sep 2021 - Present | **Ph.D. Candidate** | Institute of Engineering Thermophysics, [School of Mechanical Engineering](https://me.sjtu.edu.cn/en/), **[Shanghai Jiao Tong University](https://https://en.sjtu.edu.cn/)**
+- **Major**：Power Engineering and Engineering Thermophysics
+- **​Supervisor**：Prof. C. Y. Zhao, Chair Professor, Director of the Institute of Engineering Thermophysics
+- **​Research Topic**: Mechanisms and Manipulation of Near-Field Radiative Heat Transfer in Complex Many-Body Systems
+- **GPA**：3.86/4.0
+- **​Selected Coursework**：  
+    - Computational Fluid Dynamics and Applications: **A+**  
+    - Thermal Radiation Heat Transfer: **A**
+    - Computational Methods: **A**
+    - Modern Control Theory: **A**
+
+Sep 2017 - Jun 2021 | **Bachelor of Engineering** | Department of Process Equipment and Control Engineering, [School of Chemical Engineering and Technology](https://clet.xjtu.edu.cn/english/Home.htm), **[Xi'an Jiaotong University](https://https://en.xjtu.edu.cn/)** 
+- **Major**：Process Equipment and Control Engineering
+- **GPA**: 3.92/4.3, Consistently ranked **1st** in major.
+- **Undergraduate Thesis**：Optimal Design of a Concentrated Solar Methanol Reforming Reactor
+- **​Selected Coursework**：  
+    - Advanced Mathematics II：**97**
+    - University Physics II: **97**
+    - Linear Algebra and Analytic Geometry：**99**
+    - Heat Transfer：**96**
+    - Engineering Programming：**96**
+    - Inventor 3D Modeling：**99**
+
+### 🌐Language Proficiency
+- College English Test Band 6 (CET-6): 595
+- College English Test Band 4 (CET-4): 541
+
+### ⚙️Research Projects
+Jan 2022 - Dec 2026 | **NSFC Key International Cooperation Project: Influence of Metasurface Near-Field Coupling Mechanisms on Thermal Radiation Properties**
+- **Role**: Key Participant  
+- **Responsibilities:**
+    - Developed theoretical and numerical simulation models.
+    - Performed metasurface design, numerical simulation, and participated in radiator fabrication.
+    - Modulated spectral, energetic, and temporal characteristics of thermal radiation through structural design.
+
+Jan 2021 - Dec 2025 | 
+
+Jan 2021 - Dec 2024 | 
+- **Role**: Core Participant  
+- **Responsibilities:**
+    - Developed theoretical and numerical simulation models.
+    - Performed metasurface design, numerical simulation, and participated in radiator fabrication.
+    - Modulated spectral, energetic, and temporal characteristics of thermal radiation through structural design.
 
 I am Bruce Kochumol Varghese. A software developer, and alter ego of Bino.
 
