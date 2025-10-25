@@ -10,7 +10,7 @@ disableKinds = ["taxonomy","term"] # DO NOT MODIFY
 
 [params]
     author = "Zhen GONG" # Author name of the article.
-    logoImg = true # If false, the site title will display.
+    logoImg = false # If false, the site title will display.
     logoInvert = true # If the image logo needs to be turned on Image Colour Inversion.
     math = true
 
