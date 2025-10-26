@@ -1,4 +1,4 @@
 ---
-Title: "Blog"
-subtitle : "A growing collection of ideas, notes, and written explorations."
+Title: "Projects"
+subtitle : "Detailed introduction about the mentioned projects"
 ---

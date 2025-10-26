@@ -1,10 +1,10 @@
 baseURL = "https://gongzhem.github.io"
-defaultContentLanguage = "zh"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-languageCode = "zh"
+languageCode = "en"
 title = "JHEM"
 theme = "lightbi-hugo"
-summaryLength  = 30
+summaryLength = 30
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
@@ -29,105 +29,156 @@ hideAuthor = false
 useHLJS = true
 socialShare = true
 delayDisqus = true
-showRelatedPosts = true 
+showRelatedPosts = true
 gcse = false
 Lastmod = false
-rss = true 
+rss = true
 pagination = "10"
-description="Your can add your website description here."
+description = "Your can add your website description here."
 lunrSearch = true
 previewCardImagePlacement = "bottom"
 hidePostImage = false
-tagSubtitle = "Here, you’ll discover the latest notes that explore new insights, and unique perspectives on the world."
+# tagSubtitle = "Here, you’ll discover the latest notes that explore new insights, and unique perspectives on the world."
 homepageLayout = "profile" #blog
-profileShortbio = "I’m passionate about the web platform and love creating for the web. Here, you'll find a mix of long essays, quick notes, and personal reflections on what I’ve learned throughout my journey."
+profileShortbio = """<p>
+	I'm currently a Ph.D. candidate in power engineering and engineering thermal physics at Shanghai Jiao Tong University, primarily working on micro/nano scale thermal radiation and computational fluid dynamics (CFD). I'm interested in utilizing advanced numerical tools and algorithms (Ansys Fluent, COMSOL multiphysics, RCWA, Monte Carlo) to conduct fludid dynamics, chemical processed and electromagnetic simulations, as well as to address the complex interations via multiphysics coupled analysis.
+<br>
+	我目前是一名上海交通大学2026届直博生，研究方向为微纳尺度辐射传热及计算流体力学，研究课题为复杂多体系统中的近场辐射传热机理和调控研究，在基于 Fluent, COMSOL 等商业软件和RCWA, 蒙特卡洛方法等数值仿真工具和算法进行计算流体力学、化学反应及电磁学多物理场耦合仿真具有较为丰富的经验。
+</p>
+"""
 profilePhoto = "img/profile/home-profile-pic.jpg"
 
 [pagination]
 pagerSize = 9
 
 [languages]
-  [languages.en]
-    LanguageCode  = "EN"
-    LanguageName = "English"
-    weight = 1
-    title = "JHEM"
-    contentDir = "content/en/"
+[languages.en]
+LanguageCode = "EN"
+LanguageName = "English"
+weight = 1
+title = "JHEM"
+contentDir = "content/en/"
 
-  [languages.zh]
-    LanguageCode  = "ZH"
-    LanguageName = "Chinese (Simplified)"
-    weight = 2
-    title = "JHEM"
-    contentDir = "content/zh/"
+# 英文菜单定义
+[[languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Projects"
+url = "/posts/"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "About"
+url = "/about/"
+weight = 3
+
+[languages.zh]
+LanguageCode = "ZH"
+LanguageName = "简体中文"
+weight = 2
+title = "JHEM"
+contentDir = "content/zh/"
+
+# 中文菜单定义
+[[languages.zh.menu.main]]
+name = "首页"
+url = "/"
+weight = 1
+
+[[languages.zh.menu.main]]
+name = "项目"
+url = "/posts/"
+weight = 2
+
+[[languages.zh.menu.main]]
+name = "关于"
+url = "/about/"
+weight = 3
 
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true  # 关键！允许原始HTML渲染
-  [markup.goldmark.extensions]
-    typographer = false
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true # 关键！允许原始HTML渲染
+[markup.goldmark.extensions]
+typographer = true
 
-ignoreLogs = ['warning-goldmark-raw-html']  # 保留原有配置
+ignoreLogs = ['warning-goldmark-raw-html'] # 保留原有配置
 
 [Params.Author]
-  name = "Zhen GONG"
-  website = "https://gongzhem.github.io"
-  # authorInfo = "Give everything for your dreams."
-  # authorPostImage = "/img/author-post-img.jpg"
-  # facebook = "username"
-  # instagram = "username"
-  # youtube = "user/username" # or channel/channelname
-  # twitter = "username"
-  linkedin = "gongzhem"
-  github = "gongzhem"
-  # threads = "username"
-  gitlab = "gongzhem"
-  # reddit = "username"
-  # stackoverflow = "users/XXXXXXX/username"
-  # snapchat = "username"
-  # spotify = "username"
-  # paypal = "username"
-  # telegram = "username"
-  # mastodon = "url"
-  # slack = "username"
-  #bandcamp = "username"
-  #itchio = "username"
-  #vk = "username"
-  #500px = "username"
-  #kaggle = "username"
-  #weibo = "username"
-  #xing = "username"
-  #bitbucket = "username"
-  #soundcloud = "username"
-  # codepen = "username"
+name = "Zhen GONG"
+website = "https://gongzhem.github.io"
+# authorInfo = "Give everything for your dreams."
+# authorPostImage = "/img/author-post-img.jpg"
+# facebook = "username"
+# instagram = "username"
+# youtube = "user/username" # or channel/channelname
+# twitter = "username"
+linkedin = "gongzhem"
+github = "gongzhem"
+# threads = "username"
+gitlab = "gongzhem"
+# reddit = "username"
+# stackoverflow = "users/XXXXXXX/username"
+# snapchat = "username"
+# spotify = "username"
+# paypal = "username"
+# telegram = "username"
+# mastodon = "url"
+# slack = "username"
+#bandcamp = "username"
+#itchio = "username"
+#vk = "username"
+#500px = "username"
+#kaggle = "username"
+#weibo = "username"
+#xing = "username"
+#bitbucket = "username"
+#soundcloud = "username"
+# codepen = "username"
 
 [sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+# [languages]
+# [languages.en]
+# LanguageCode = "EN"
+# LanguageName = "English"
+# weight = 1
+# title = "JHEM"
+# contentDir = "content/en/"
+
+# [languages.zh]
+# LanguageCode = "ZH"
+# LanguageName = "简体中文"
+# weight = 2
+# title = "JHEM"
+# contentDir = "content/zh/"
+# [[menu.main]]
+# name = "Home"
+# url = "/"
+# weight = 1
 
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+# [[menu.main]]
+#     name = "Blog"
+#     url = "/posts/"
+#     weight = 2
 
-[[menu.main]]
-    name = "Blog"
-    url = "/posts/"
-    weight = 2
+# [[menu.main]]
+#     name = "Notes"
+#     url = "/notes/"
+#     weight = 3
 
-[[menu.main]]
-    name = "Notes"
-    url = "/notes/"
-    weight = 3
-
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
+# [[menu.main]]
+#     name = "Tags"
+#     url = "/tags/"
+#     weight = 4
 
 
 #[[menu.main]]
@@ -135,8 +186,7 @@ ignoreLogs = ['warning-goldmark-raw-html']  # 保留原有配置
 #    url = "/collections/"
 #    weight = 5
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 6
-
+# [[menu.main]]
+# name = "About"
+# url = "/about/"
+# weight = 6
