@@ -3,8 +3,6 @@ layout : "about"
 title: "About me"
 ---
 
-I an Zhen Gong, currently  a PhD student at Shanghai Jiao Tong Univerisity.
-
 {{< figure src="/images/img0.jpg" alt="profile photo" width="200" >}}
 
 <div style="text-align: center;">Zhen GONG (龚震)</div>
