@@ -71,9 +71,14 @@ url = "/posts/"
 weight = 2
 
 [[languages.en.menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[languages.en.menu.main]]
 name = "About"
 url = "/about/"
-weight = 3
+weight = 4
 
 [languages.zh]
 LanguageCode = "ZH"
@@ -94,9 +99,14 @@ url = "/posts/"
 weight = 2
 
 [[languages.zh.menu.main]]
+name = "标签"
+url = "/tags/"
+weight = 3
+
+[[languages.zh.menu.main]]
 name = "关于"
 url = "/about/"
-weight = 3
+weight = 4
 
 
 [markup]
